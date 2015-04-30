@@ -1,0 +1,102 @@
+@charset "utf-8";
+body {
+	background-image: url(txture.jpg);
+}
+/* menu bg */
+#headbg {
+	position:relative;
+	text-align: center;>
+	margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+    background: #70354b;
+	opacity: 0.8;
+    padding: 20px; 
+    height: 32px;    
+}
+/* end menu bg */
+
+
+/* menu */
+#headbg{
+height:30px;
+}
+#headbg ul{
+margin:0;
+}
+#headbg ul li{
+position:relative;
+float:right; 
+margin-left:0;
+list-style:none;
+padding:7px;
+}
+/* Logo */
+
+#headbg ul im{   
+float:left; 
+margin:-14;
+}
+
+#headbg ul li a{
+position:relative;
+text-decoration:none;
+color:#d4caa6;
+text-shadow: 1px 1px 1px rgba(100, 100, 100, 1);
+}
+#headbg ul li a:hover{
+	position:relative;
+	text-decoration:none;
+	color:#f6e5b9;
+	text-align: center;
+}
+
+/* End menu */
+
+/*searc*/
+
+#search
+
+
+form {
+	            position:relative;
+                margin:5;
+}
+.search {
+	position:relative;
+                margin:5;
+                padding:8px 10px;
+                background: #622f42;
+	            opacity: 0.8;
+                border:0px solid #70354b;
+}
+.button {
+	position:relative;
+                margin:5;
+background: #c2d1c6;
+  background-image: -webkit-linear-gradient(top, #c2d1c6, #92a496);
+  background-image: -moz-linear-gradient(top, #c2d1c6, #92a496);
+  background-image: -ms-linear-gradient(top, #c2d1c6, #92a496);
+  background-image: -o-linear-gradient(top, #c2d1c6, #92a496);
+  background-image: linear-gradient(to bottom, #c2d1c6, #92a496);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #edf5ef;
+  font-size: 12px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+
+}
+.button:hover  {
+  background: #bbecc6;
+  background-image: -webkit-linear-gradient(top, #bbecc6, #98af9d);
+  background-image: -moz-linear-gradient(top, #bbecc6, #98af9d);
+  background-image: -ms-linear-gradient(top, #bbecc6, #98af9d);
+  background-image: -o-linear-gradient(top, #bbecc6, #98af9d);
+  background-image: linear-gradient(to bottom, #bbecc6, #98af9d);
+  text-decoration: none;
+				
+				
+/* end searc*/

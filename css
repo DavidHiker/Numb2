@@ -56,30 +56,24 @@ text-shadow: 1px 1px 1px rgba(100, 100, 100, 1);
 /*searc*/
 
 #search
-
+#Menu{
+display: inline-block; }
 
 form {
-	            position:relative;
-                margin:5;
+	          display: inline-block;
+              
 }
+
+
 .search {
-	position:relative;
-                margin:5;
-                padding:8px 10px;
+	            display: inline-block;
                 background: #622f42;
 	            opacity: 0.8;
                 border:0px solid #70354b;
 }
 .button {
-	position:relative;
-                margin:5;
-background: #c2d1c6;
-  background-image: -webkit-linear-gradient(top, #c2d1c6, #92a496);
-  background-image: -moz-linear-gradient(top, #c2d1c6, #92a496);
-  background-image: -ms-linear-gradient(top, #c2d1c6, #92a496);
-  background-image: -o-linear-gradient(top, #c2d1c6, #92a496);
-  background-image: linear-gradient(to bottom, #c2d1c6, #92a496);
-  -webkit-border-radius: 9;
+display: inline-block;
+margin:5;
   -moz-border-radius: 9;
   border-radius: 9px;
   font-family: Arial;
@@ -89,7 +83,8 @@ background: #c2d1c6;
   text-decoration: none;
 
 }
-.button:hover  {
+.button  {
+	display: inline-block;
   background: #bbecc6;
   background-image: -webkit-linear-gradient(top, #bbecc6, #98af9d);
   background-image: -moz-linear-gradient(top, #bbecc6, #98af9d);
